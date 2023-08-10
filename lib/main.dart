@@ -54,7 +54,10 @@ class _MyHomePageState extends State<MyHomePage> {
                       return Text(
                         '${counterController.counter}',
                         // '10000000',
-                        style: TextStyle(fontSize: counterController.multiplier * unitHeightValue, color: Colors.white),
+                        style: TextStyle(
+                          fontSize: counterController.multiplier * unitHeightValue,
+                          color: Colors.white,
+                        ),
                       );
                     }),
                   ],
